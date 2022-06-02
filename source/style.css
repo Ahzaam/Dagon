@@ -1,0 +1,834 @@
+div.container{
+  width:1500px;
+  margin: auto;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #d93535;
+  font-family: Arial;
+  font-size: 14px;
+  padding-left: 150px;
+  padding-right: 150px;
+  /* font-weight: bold; */
+}
+
+/* Links inside the navbar */
+.navbar a {
+/* float: left; */
+  /* border: 2px solid blue; */
+  font-size: 16px;
+  color: white;
+  font-family:sans-serif;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+
+
+}
+
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden
+  padding-left:100px;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 30px;
+  background-color: inherit;
+  font: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.72);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  }
+.mega-dropdown-content {
+  display: none;
+  position:absolute;
+  background-color: rgba(255, 255, 255, 0.72);
+  margin-left:19%;
+/* width:700px; */
+  padding-right: 100px;
+  padding-top: 50px;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  }
+.mega-dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width:inherit;
+  text-align: left;
+}
+div.search{
+  height:50px;
+  width:670px;
+  float: left;
+  padding: 0;
+  /* margin-right: 100px;
+  margin-top: -40px; */
+  border: 1px solid grey;
+}
+
+div.search input[type="text"]{
+  width: 390px;
+  height: 30px;
+  outline: none;
+  margin:10px 0 10px 10px ;
+  border-left: 1px solid grey;
+  display: inline-block;
+}
+div.search input[type="email"]{
+  width: 390px;
+  height: 30px;
+  outline: none;
+  background: none;
+  font-size: 13px;
+  margin:10px 0 10px 10px ;
+  border-left: 1px solid grey;
+  display: inline-block;
+}
+div.search button[type="button"]{
+  width: 105px;
+  margin: 0px;
+  float: right;
+  height: 100%;
+  background-color: #d93535;
+  border: none;
+}
+div.search label{
+  border: none;
+  float: left;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+div.header-content img[type="icon"]{
+  padding-top: 10px;
+  padding-left: 20px;
+  height: 30px;
+  width: 30px;
+  float: right;
+  overflow-x: auto;
+}
+/* Add a grey background color to dropdown links on hover */
+.mega-dropdown-content a:hover {
+  background-color: #ffffff;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .mega-dropdown-content {
+  display: block;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #d6d6d6;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+div.header-content{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height:60px;
+  width:100%;
+  margin-right: 100px;
+/* background-color: yellow; */
+  display: inline-block;
+  text-align: center;
+}
+.dropdown-content .header {
+  background: red;
+  padding: 16px;
+  color: white;
+}
+.dropdown-content img{
+  margin-right: 20px;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: auto;
+  padding: 10px;
+  text-align: left;
+  background-color: white;
+  height: auto;
+}
+
+/* Style links inside the columns */
+.column a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a background color on hover */
+.column a:hover {
+  background-color: #ddd;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* div.header-container{
+  width:300px;
+  display:inline-block;
+} */
+div.blck{
+  text-align: center;
+}
+input{
+  font-size: 20px;
+  height: 50px;
+  border:none;
+}
+p{
+  cursor: pointer;
+}
+label{
+  font-size: 20px;
+  height:60px;
+  border: 1px solid grey;
+}
+h4{
+  /* text-decoration: underline;
+  text-decoration-color: red; */
+  color: red;
+}
+p{
+  font-family: sans-serif;
+}
+button{
+  margin-left: 10px;
+}
+div.slide-img{
+  width:100%;
+  height:500px;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+}
+div.imgblc{
+  visibility: hidden;
+  margin-left: 100px;
+  opacity: 0.1;
+  width:500px;
+  height:450px;
+  margin: 0px;
+  text-align: left;
+  display: inline-block;
+  box-sizing: border-box;
+  overflow-x: auto;
+}
+body:hover .container div.imgblc{
+  visibility: visible;
+  opacity: 1;
+  transition: 1s;
+}
+.slide-img div.imgblc[type="text"] p[type="para"]{
+  color:grey;
+  font-family:cursive;
+}
+
+.slide-img div.imgblc[type="text"]{
+  display:inline-block;
+  visibility: hidden;
+  margin-top:100px;
+  position: absolute;
+  left: 1400px;
+  top:300px;
+  opacity: 0.1;
+  width:500px;
+  height:450px;
+  margin: 0px;
+  text-align: left;
+  display: inline-block;
+  box-sizing: border-box;
+  overflow-x: auto;
+  transition: 0.4s;
+}
+body:hover .container .slide-img div.imgblc[type="text"]{
+  visibility: visible;
+  left: 350px;
+  opacity: 1;
+  transition: 0.5s;
+}
+/* display:inline-block; padding-top:100px; margin-left:180px; */
+
+div.feature{
+  height: 190px;
+  width: 350px;
+  margin: 20px;
+  padding-top: 10px;
+  background-color: #f6f5f5 ;
+  display: inline-block;
+  overflow-x: auto;
+  border: 1px solid #b8b8b8;
+}
+button[type="buttonx"]:hover{
+  background-color: #d93535;
+}
+div.container div.slide-img div.feature img{
+  width:70px;
+  height:70px;
+}
+div.container div.slide-img  button[type="buttonx"]{
+  visibility: hidden;
+  position: absolute;
+  top: 800px;
+  left: 350px;
+  opacity: 0.1;
+  height:40px;
+  width:100px;
+  background-color:#d93535;
+  color:white;
+  border:none;
+  border-radius:4px;
+  margin:0px;
+  transition: 0.3s;
+}
+div.container div.slide-img button[type="buttonx"]:hover{
+  background-color: red;
+
+}
+body:hover .container div.slide-img button[type="buttonx"]{
+  visibility: visible;
+  opacity: 1;
+  left: 350px;
+  top:600px;
+  transition: 0.5s;
+}
+div.items{
+  border: 1px solid #bebebe ;
+  margin-top: 10px;
+  width: 560px;
+  height: 310px;
+  display: inline-block;
+  background-color: white;
+  position:relative;
+  overflow-x: auto;
+  border-radius: 4px;
+}
+div.container div.slide-img div.items:hover{
+  border: 1px solid red;
+}
+.items img{
+  width: 270px;
+  height: 270px;
+  margin: 20px 0 0px 0px ;
+  float: left;
+  display: inline-block;
+  transition-duration: 1s;
+}
+div.container div.slide-img div.items:hover img{
+  transform: scale(1.15);
+  transition-duration: 1s;
+}
+div.item-des{
+  margin-top: 20px;
+  width: 250px;
+  float: right;
+  margin-right: 20px;
+  text-align: left;
+  overflow-x: auto;
+  position: relative;
+}
+div.container div.slide-img div.items div.item-des p{
+  /* float:right; */
+  /* margin-right: 50px; */
+  text-align: left;
+  font-size:20px;
+  font-family: sans-serif;
+}
+.checked {
+  color: orange;
+}
+div.ball-cont{
+  padding-top: 10px;
+  width: 48px;
+  margin-right: 10px;
+  height: 80px;
+  display: inline-block;
+}
+div.ball{
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  display: inline-block;
+  overflow-x: auto;
+  background-color: #db2727;
+}
+div.container div.slide-img div.items div.item-des div.ball-cont div.ball{
+  text-align: center;
+}
+div.container div.slide-img div.items div.item-des div.ball-cont div.ball p{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 15px;
+
+}
+div.container div.slide-img div.items div.item-des div.ball-cont p{
+  text-align: center;
+  font-size: 12px;
+  color: #a3a3a3;
+  font-family: sans-serif;
+  margin: 0;
+  font-weight: bold;
+}
+div.container div.slide-img div.items div.item-des div.ball-cont{
+  overflow-x: auto;
+}
+div.container div.slide-img div.items div.item-des button[type="button"]{
+  width: 120px;
+  height: 45px;
+  margin: 0px;
+  padding: 0;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  border: none;
+  overflow: auto;
+  display: inline-block;
+  border-radius: 3px;
+}
+div.container div.slide-img div.items div.item-des button[type="button"]:hover{
+  background-color: #dd0b0b ;
+  transition-duration: 0.5s;
+}
+div.items-2{
+  border: none;
+  margin-top: 10px;
+  height: 250px;
+  display: inline-block;
+  position:relative;
+  overflow-x: auto;
+  border-radius: 4px;
+}
+div.container div.slide-img div.items-2 div.item-des button[type="button"]{
+  height:40px;
+  width:130px;
+  background-color:#bf2b2b;
+  color:white;
+  border:none;
+  border-radius:4px;
+  font-weight:bold;
+  margin:0px;
+}
+div.container div.slide-img div.items-2 div.item-des button[type="button"]:hover{
+  background-color: black;
+  transition-duration: 0.7s;
+}
+div.head-bar{
+  margin-left:180px;
+  border-left: 3px solid #d02f03;
+  padding-left:20px;
+  overflow-x: auto;
+}
+div.head-nav{
+  float: right;
+  display: inline-block;
+  overflow-x: auto;
+  margin-right: 175px;
+}
+div.container div.head-bar{
+  display: inline-block;
+}
+div.container div.head-bar p{
+  font-size:30px;
+  font-family:sans-serif;
+  margin: 0px;
+}
+div.container div.head-nav p{
+  padding: 10px 0 10px 0;
+  display: block;
+  margin: 0px 0px 20px 20px;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+div.container div.head-nav p:hover{
+  border-bottom: 2px solid #b63636;
+  padding: 10px 0 8px 0;
+}
+div.product{
+  width:270px;
+  height:365px;
+  border: 1px solid #d6d6d6;
+  display: inline-block;
+  overflow-x: auto;
+  border-radius: 6px;
+  margin:13px 13px;
+  text-align: left;
+  position: relative;
+}
+.product .view-btn{
+   visibility: hidden;
+   position:absolute ;
+   width: 40px;
+   height: 40px;
+   bottom: 230px;
+   border-radius: 15px;
+   border: none;
+   color: blue;
+   background-color: black;
+   left:120px;
+   opacity: 0.1;
+   transition: 0.5s;
+ }
+div.product:hover{
+  border: 1px solid #ff0d0d ;
+
+}
+.product .btn2:hover{
+  background-color: #e60000;
+}
+.product .btn1:hover{
+  background-color: #e60000;
+}
+.product .btn:hover{
+  background-color: #e60000;
+}
+ .product .btn{
+  visibility: hidden;
+  position:absolute ;
+  width: 130px;
+  height: 40px;
+  bottom: 29px;
+  background-color: black;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  left:70px;
+  opacity: 0.1;
+  transition: 0.5s;
+}
+.product .btn1{
+ visibility: hidden;
+ position:absolute ;
+ width: 50px;
+ height: 40px;
+ padding: 0;
+ bottom: 29px;
+ border-radius: 3px;
+ border: none;
+ background-color: black;
+ left:10px;
+ opacity: 0.1;
+ transition: 0.5s;
+}
+.product .btn2{
+ visibility: hidden;
+ position:absolute ;
+ border-radius: 3px;
+ border: none;
+ width: 50px;
+ height: 40px;
+ bottom: 29px;
+ background-color: black;
+ right: 20px;
+ opacity: 0.1;
+ transition: 0.5s;
+}
+  div.product:hover .item-des{
+    opacity: 0.1s;
+    transition: 0.7s;
+  }
+ div.product:hover .btn2 {
+   transition: 0.5s;
+   visibility: visible;
+   opacity: 1;
+
+ }
+ div.product:hover .view-btn {
+   transition: 0.5s;
+   visibility: visible;
+   opacity: 1;
+
+ }
+
+ div.product:hover .btn {
+   transition: 0.5s;
+   visibility: visible;
+   opacity: 1;
+
+ }
+ div.product:hover .btn1{
+   transition: 0.5s;
+   visibility: visible;
+   opacity: 1;
+
+ }
+ div.product:hover .item-des p[type="price"]{
+   transition-delay: 0.5s;
+   visibility: hidden;
+   opacity: 0.1;
+ }
+ div.product:hover .item-des .icon{
+   transition-delay: 0.5s;
+   visibility: hidden;
+   opacity: 0.1;
+ }
+ div.product:hover .item-des p[type="price"]{
+   transition: 0.5s;
+   opacity: 0.1;
+ }
+ div.product:hover .item-des .icon{
+   transition: 0.5s;
+   opacity: 0.1;
+ }
+
+div.product-cart button{
+  width: 80px;
+  height: 30px;
+  background-color: red;
+}
+div.container div.slide-img div.product img{
+  width: 230px;
+  height: 230px;
+  transition: 0.5s;
+}
+
+div.product p[type="name"]{
+  margin: 0px;
+  font-size:20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  /* font-weight: bold; */
+}
+div.product p[type="price"]{
+  margin: 0px;
+  font-size:20px;
+  font-family: sans-serif;
+  font-weight: none;
+  margin-bottom: 10px;
+  color: #e42626;
+}
+
+div.product p[type="price"] del{
+  margin: 0px;
+  font-size: 15px;
+  color:grey;
+}
+.product {
+  padding:0 0 0 20px;
+
+}
+.product:hover img{
+  transform: scale(1.3);
+  transition-duration: 0.7s;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+div.posts{
+  width: 370px;
+  height: 400px;
+  text-align: center;
+  overflow-x: auto;
+  margin-right: 20px;
+  display: inline-block;
+
+}
+.posts img{
+  transition: 1s;
+}
+.posts:hover img{
+  opacity: 0.5;
+  transition: 1s;
+}
+.container img[type="img"]{
+  width:100%;
+
+}
+.ani{
+  display: inline-block;
+  width: 19.7%;
+  position:relative;
+  margin: 0px;
+}
+.product:hover img[type="none"]{
+  transform: scale(1);
+}
+button[type="coll"]{
+width:130px;
+height:40px;
+margin-top:20px;
+background-color:#bf2525;
+color:white; font-size:16px;
+border:none;
+border-radius:5px;
+}
+button[type="coll"]:hover{
+  background-color: black;
+  transition: 1s;
+}
+
+.ani .box{
+  visibility: hidden;
+  position: absolute;
+  bottom: 30%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: black;
+  width: 60px;
+  height: 60px;
+  opacity: 0.1;
+  border: none;
+  transition: 0.2s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.ani:hover .box{
+  text-align: center;
+  visibility: visible;
+  width: 368px;
+  height:385px;
+  bottom: -190px;
+  transition: 0.5s;
+}
+.box:hover{
+    opacity: 0.7 ;
+}
+.box:hover img{
+  visibility: visible;
+}
+.box img{
+  visibility: hidden;
+  width: 50px;
+  height: 50px;
+  padding-top: 45%;
+}
+img[type="cart"]{
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.cart-item{
+  display: block;
+  width: 90%;
+  margin-left: 10px;
+  text-align: left;
+  height: 100px;
+  border-bottom: 1px solid #ababab;
+}
+.cart-item:hover img{
+  transform: scale(1);
+  transition: 0.5s;
+  background-color: rgba(201, 201, 201, 0.4);
+}
+.cart-item:hover{
+  border-bottom: 1px solid #ff3434;
+  /* background-color: rgba(201, 201, 201, 0.4); */
+}
+.cart-item img{
+  transform: scale(0.7);
+  transition: 0.5s;
+}
+button[type="btnx"]{
+  height:40px;
+  width: 130px;
+  background-color:#d93535;
+  font-size: 16px;
+  font-weight: bold;
+  color:white;
+  border:none;
+  border-radius:4px;
+  margin:0px;
+}
+button[type="btnx"]:hover{
+  background-color: #701717;
+  transition: 0.7s;
+}
+.icon-cont{
+  padding-top: 50px;
+}
+.icon-ball{
+  margin: 30px 10px;
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  display: inline-block;
+  overflow-x: auto;
+  background-color: white;
+}
+.icon-cont{
+  height:100px;
+}
+.icon-ball:hover{
+  background-color: #911d1d;
+  transition: 0.5s;
+}
+.icon-cont .icon-ball p{
+  margin: 10px 0 0 0;
+  color: black;
+  margin-top: 11px;
+}
+.icon-ball p:hover{
+
+  color: white;
+  transition: 0.5s;
+}
+
+.bank{
+  float: right;
+  padding-top: 5px;
+}
+.bank img {
+  margin-left: 10px;
+  border-radius: 4px;
+}
+.bank img:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}
